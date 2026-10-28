@@ -253,6 +253,38 @@ footer a:hover { color: #ff9a52; }
   .float-two { right: 8px; }
   .cta-box { padding: 27px; }
 }
+
+/* AC maintenance gift offer */
+.maintenance-offer { padding: 65px 0; background: #fff5ec; }
+.offer-card {
+  display: grid; grid-template-columns: 1fr 1fr; align-items: stretch;
+  background: #fff; border: 2px solid var(--orange); border-radius: 20px;
+  overflow: hidden;
+}
+.offer-copy { padding: 35px; }
+.offer-label {
+  display: inline-block; background: #fff0e5; color: #e96713;
+  padding: 7px 13px; border-radius: 30px; font-size: 13px; font-weight: bold;
+}
+.offer-copy h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.2; margin: 18px 0; }
+.offer-copy h2 span { color: var(--orange); }
+.offer-copy > p { color: var(--gray); margin-bottom: 15px; }
+.offer-copy .check-list { margin: 18px 0 24px; }
+.offer-note { font-size: 12px; color: #888 !important; margin-top: 14px; }
+.offer-art {
+  background: var(--orange); min-height: 330px; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 30px; color: white;
+}
+.gift-emoji { font-size: 95px; line-height: 1.3; }
+.offer-art h3 { font-size: 30px; }
+.offer-art p { margin-top: 10px; color: #fff4ec; }
+.gift-snow { font-size: 42px; margin-top: 12px; }
+@media (max-width: 650px) {
+  .offer-card { grid-template-columns: 1fr; }
+  .offer-copy { padding: 26px; }
+  .offer-art { min-height: 230px; }
+}
+
 </style>
 </head>
 
@@ -494,6 +526,32 @@ footer a:hover { color: #ff9a52; }
     <a class="btn" href="https://wa.me/923150102196" target="_blank" rel="noopener">Contact on WhatsApp ↗</a>
   </div>
 </div>
+
+<section id="maintenance-offer" class="maintenance-offer">
+  <div class="container">
+    <div class="offer-card">
+      <div class="offer-copy">
+        <span class="offer-label">🎁 SPECIAL CUSTOMER OFFER</span>
+        <h2>AC Maintenance Karao,<br><span>Gift Pao!</span></h2>
+        <p>FIXCOOLPK se apne AC ki maintenance karwao aur apne liye ek special gift hasil karo. Apni booking aur gift ki details WhatsApp par confirm karein.</p>
+        <ul class="check-list">
+          <li>Professional AC maintenance</li>
+          <li>Special gift for customers</li>
+          <li>Easy WhatsApp booking</li>
+        </ul>
+        <a class="btn" href="https://wa.me/923150102196?text=Assalam%20o%20Alaikum%2C%20mujhe%20AC%20maintenance%20aur%20gift%20offer%20ki%20details%20chahiye." target="_blank" rel="noopener">Book Maintenance on WhatsApp ↗</a>
+        <p class="offer-note">Gift availability aur offer ki conditions booking ke waqt confirm karein.</p>
+      </div>
+      <div class="offer-art">
+        <div class="gift-emoji">🎁</div>
+        <h3>A Gift From Us!</h3>
+        <p>Thank you for choosing FIXCOOLPK</p>
+        <div class="gift-snow">❄️ 🧡</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer>
